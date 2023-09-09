@@ -1,0 +1,3 @@
+/Users/kirillkasickij/Desktop/С++/ML Algorithms/cmake-build-debug/CMakeFiles/ML_Algorithms.dir
+/Users/kirillkasickij/Desktop/С++/ML Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kirillkasickij/Desktop/С++/ML Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
