@@ -10,8 +10,8 @@ class LinearRegression{
     double w0;
 
     public:
-    void fit(const std::vector<std::vector<double>>& train_features, 
-             const std::vector<double>& train_target){        
+    void fit(const std::vector<std::vector<double>>& train_features,
+             const std::vector<double>& train_target){
         size_t num_samples = train_features.size();
         size_t num_features = train_features[0].size();
 

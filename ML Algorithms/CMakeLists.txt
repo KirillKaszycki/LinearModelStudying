@@ -9,4 +9,4 @@ add_executable(ML_Algorithms
         LinearModel.h
         main.cpp
         r2_score.h
-        train_test_split.h)
+        data.h)

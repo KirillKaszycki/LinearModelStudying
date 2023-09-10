@@ -35,11 +35,14 @@ private:
     std::vector<double> true_values_;
     std::vector<double> predicted_values_;
 
-    double CalculateMean(const std::vector<double>& values) const {
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cppcoreguidelines-narrowing-conversions"
+    static double CalculateMean(const std::vector<double>& values) {
         double sum = 0.0;
         for (const double& val : values) {
             sum += val;
         }
         return sum / values.size();
     }
+#pragma clang diagnostic pop
 };
